@@ -1,0 +1,42 @@
+.header-container{
+     width:99.5%;
+    //  border:2px solid red;
+     height:3rem;
+     display: flex;
+     align-items: center;
+     flex-wrap:wrap;
+     justify-content: space-between;
+     padding:0.2rem;
+     box-shadow: 5px -7px 50px 3px rgba(0,0,0,0.75);
+
+     .header-logo{
+        span{
+            font-weight:700;
+            font-size:2rem;
+        }
+
+     }
+
+     .header-navigation{
+        display:flex;
+        gap:0.9rem;
+
+        span{
+            cursor:pointer
+        }
+        span:hover{
+            color:blue;
+            text-decoration: underline;
+        }
+        
+
+     }
+     .actions{
+        gap:0.2rem;
+
+        button.sign-in-btn:hover{
+            background-color:blue;
+        }
+     }
+    
+}

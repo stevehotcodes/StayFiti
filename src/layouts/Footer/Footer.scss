@@ -1,18 +1,17 @@
 .footer-container{
     background-color: rgb(29,29,31);
     color:white;
-     width:99.5%;
-     min-height:50vh;
+     width:99.9999%;
+    //  min-height:60vh;
      display: flex;
      flex-wrap:wrap;
-     padding:0.2rem;
+
+     
 
      .logo-get-started-wrapper{
         display:flex;
 
         justify-content: space-between;
-        // border:2px solid red;
-        border-bottom:2px solid whitesmoke;
         align-items: center;
         height:6rem;
         width:99.5%;
@@ -55,12 +54,12 @@
 
      .all-pages-contacts{
         display:flex;
-        // border:2px solid blue;
         align-items: center;
+        
         width: 100%;
+
         .all-pages{
-            // flex:1;
-            // border:2px solid red;
+
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -69,7 +68,6 @@
 
         
         }
-        // flex-direction: column;
         
     }
 

@@ -64,18 +64,20 @@
   }
   
   .label-input-group {
-    width: 100%;
+    width: 70%;
     margin: 0.5rem;
+    // border:2px solid red;
   }
   label {
     font-weight: 700;
   }
   
   input {
-    width: 100%;
-    padding: 12px 15px;
-    margin: 8px 0;
+    width: 10rem;
+    // padding: 12px 15px;
+    // margin: 8px 0;
     background-color: #f9f8f8;
+    // border :2px solid blue;
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(206, 203, 203));
   }

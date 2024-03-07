@@ -5,14 +5,17 @@ import './App.css'
 import Header from './layouts/Header/Header'
 import Footer from './layouts/Footer/Footer'
 import HomePage from './pages/HomePage/HomePage'
+import Register from './pages/Register/Register'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className='root-wrapper'>
-       <HomePage/>
+       {/* <HomePage/> */}
        {/* <Footer/> */}
+       <Register/>
+       
          
     </div>
   )

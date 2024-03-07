@@ -1,0 +1,132 @@
+.signup-container {
+
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    margin: 50px 150px 30px 90px;
+  }
+  
+  .form-wrapper>img{
+    display: none;
+  }
+  .icon-feature-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .welcome-note-div {
+    color: white;
+    background-color: #4c94b5;
+    height: 100%;
+    flex: 0.5;
+  }
+  .headline-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+  .headline {
+    font-size: 20px;
+    font-family: "Inter", cursive;
+    text-align: center;
+  }
+  .icon-feature-div > p {
+    font-size: 32px;
+  }
+  .icon-feature-div > svg {
+    width: 50px;
+    height: 50px;
+    border-color: white;
+  }
+  
+  h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+  
+  .form-wrapper {
+    flex: 0.5;
+    background-color: #f3f3f3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    margin-top: -1rem;
+    box-shadow: 2px 2px solid gray;
+    width:50%;
+  }
+  
+  .label-input-group {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  label {
+    font-weight: 700;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    background-color: #f9f8f8;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(206, 203, 203));
+  }
+  
+  .sign-up-btn {
+    background-color: #4c94b5;
+    color: white;
+    border: none;
+  }
+  .sign-up-btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid#4C94B5;
+  }
+  .form-footer{
+    display: flex;
+    flex-wrap:wrap
+  }
+  .form-footer > a {
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem;
+    
+  }
+  
+  .form-footer > a:hover {
+    color: #4c94b5;
+  }
+  
+  
+  @media screen and (max-width:768px){
+    .form-wrapper>img{
+      display: block;
+    }
+    .welcome-note-div {
+       display: none;
+    }
+    .form-wrapper{
+        flex:1;
+        width:100%;
+        margin:0;
+        flex-grow: 0.95;
+    }
+    .signup-container{
+      margin-left:20px;
+      flex-direction: column;
+    }
+    form{
+      width:90%;
+      margin-left:-10px;
+      
+    }
+  }

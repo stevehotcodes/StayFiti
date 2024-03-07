@@ -5,15 +5,16 @@ import './App.css'
 import Header from './layouts/Header/Header'
 import Footer from './layouts/Footer/Footer'
 import HomePage from './pages/HomePage/HomePage'
+import Login from './pages/Login/Login'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className='root-wrapper'>
-       <HomePage/>
+       {/* <HomePage/> */}
        {/* <Footer/> */}
-         
+       <Login/>       
     </div>
   )
 }

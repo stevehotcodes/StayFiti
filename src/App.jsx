@@ -6,7 +6,6 @@ import Header from './layouts/Header/Header'
 import Footer from './layouts/Footer/Footer'
 import HomePage from './pages/HomePage/HomePage'
 import Register from './pages/Register/Register'
-=======
 import Login from './pages/Login/Login'
 
 
@@ -21,7 +20,7 @@ function App() {
        <Register/>
        
          
-       <Login/>       
+       {/* <Login/>        */}
 
     </div>
   )

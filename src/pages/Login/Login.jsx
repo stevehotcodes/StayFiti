@@ -38,7 +38,7 @@ const Login = () => {
     
                 <div class="form-footer">
                     <a href="/signup" Link="/signup">New at StayFiti? Sign up</a>
-                    <a href="/reset">Forgot Password?</a>
+                    {/* <a href="/reset">Forgot Password?</a> */}
                 </div>
             </form>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../layouts/Header/Header.scss'
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div className='header-container'>
@@ -12,8 +13,14 @@ const Header = () => {
              <span>Testimonies</span>
         </div>
         <div className="actions">
-            <button className='sign-in-btn'>Sign in</button>
-            <button>Get started</button>
+          <Link to='/login'>
+            <button className='sign-in-btn'>Log in</button>
+          
+          </Link>
+            <Link to='/signup'>
+            
+            <button  >Get started</button>
+            </Link>
         </div>
     </div>
   )

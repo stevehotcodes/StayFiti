@@ -15,7 +15,8 @@ import Register from './pages/Register/Register.jsx'
   const router=createBrowserRouter([
     {
       path:"/",
-      element:<HomePage/>
+      element:<HomePage/>,
+      errorElement:<Error/>
     },
     {
       path:"/signup",

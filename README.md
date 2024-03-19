@@ -1,8 +1,7 @@
-# React + Vite
+# STAY FITI 
+It is a project that seeks to solve the issue of people hassling to obtain to residential when moving into a new place.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Landing  page 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Home](<Screenshot 2024-03-19 171955.png>)
